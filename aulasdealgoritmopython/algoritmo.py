@@ -1,4 +1,4 @@
-km = float(input('escreva o quilometro: '))
+km = float(input('Ta tudo errado: '))
 consumo = float(input('escreva o consumo total: '))
 resultado = km/consumo
 print ('o resultado eh: ', resultado)
