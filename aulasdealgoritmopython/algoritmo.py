@@ -1,9 +1,10 @@
-km = float(input('escreva o quilometro: '))
-consumo = float(input('escreva o consumo total: '))
-resultado = km/consumo
-print ('o resultado eh: ', resultado)
-if resultado >= 1.8:
-    print('o consumo por litro é baixo')
-elif resultado < 1.8:
-    print('o consumo por litro é alto')
-    
+numeroCerto = int(input('escreva um numero de 1 a 10: '))
+contador = 1
+tentativa = 0
+while tentativa != numeroCerto:
+    tentativa = int(input('escreva um numero de 1 a 10: '))
+    if contador >= 1 and tentativa != numeroCerto:
+        print('voce errou')
+        contador+1
+    elif tentativa == numeroCerto:
+        print('voce acertou')
